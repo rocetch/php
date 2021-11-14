@@ -42,7 +42,7 @@ for version; do
 		if [ "$suite" != "$alpineVer" ]; then
 			from="alpine:$alpineVer"
 		else
-			from="debian:$suite-slim"
+			from="ubuntu:$suite"
 		fi
 		export from alpineVer
 

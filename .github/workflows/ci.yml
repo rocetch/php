@@ -1,10 +1,11 @@
 name: GitHub CI
 
 on:
+  workflow_dispatch:
   pull_request:
-  push:
-  schedule:
-    - cron: 0 0 * * 0
+  # push:
+  # schedule:
+  #   - cron: 0 0 * * 0
 
 defaults:
   run:
