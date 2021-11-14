@@ -35,6 +35,7 @@ RUN set -eux; \
 		$PHPIZE_DEPS \
 		ca-certificates \
 		curl \
+		libargon2-0 \
 		xz-utils \
 	; \
 	rm -rf /var/lib/apt/lists/*

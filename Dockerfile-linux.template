@@ -48,7 +48,6 @@ ENV PHPIZE_DEPS \
 RUN apk add --no-cache \
 		ca-certificates \
 		curl \
-		libargon2-0 \
 		tar \
 		xz \
 # https://github.com/docker-library/php/issues/494
@@ -71,6 +70,7 @@ RUN set -eux; \
 		$PHPIZE_DEPS \
 		ca-certificates \
 		curl \
+		libargon2-0 \
 		xz-utils \
 	; \
 	rm -rf /var/lib/apt/lists/*
