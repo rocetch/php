@@ -36,6 +36,7 @@ RUN set -eux; \
 		ca-certificates \
 		curl \
 		libargon2-0 \
+		libonig5 \
 		xz-utils \
 	; \
 	rm -rf /var/lib/apt/lists/*
